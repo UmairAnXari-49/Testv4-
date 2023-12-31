@@ -98,9 +98,7 @@ function ContactSection() {
               required
             ></textarea>
 
-            <button type="submit" className="send-button">
-              Send
-            </button>
+            
 
             {/* Add a button to trigger form submission */}
             <button
@@ -108,7 +106,7 @@ function ContactSection() {
               className="send-button"
               onClick={handleSendButtonClick}
             >
-              Send Programmatically
+              Send
             </button>
           </form>
         </div>
